@@ -1,0 +1,12 @@
+{
+    "scripts": {
+        "test": "kahlan",
+        "cov": "(set XDEBUG_MODE=coverage||export XDEBUG_MODE=coverage) && kahlan --coverage --src=app"
+    },
+    "require": {
+        "phputil/traits": "^1.3"
+    },
+    "require-dev": {
+        "kahlan/kahlan": "^5.2"
+    }
+}

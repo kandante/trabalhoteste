@@ -1,0 +1,7 @@
+{
+    "api/**/*.{json,md,css,html}": ["prettier --write"],
+    "gestor/**/*.{json,md,css,html}": ["prettier --write"],
+    "gestor/app/**/*.{ts,js}": ["prettier --write", "eslint --fix --no-error-on-unmatched-pattern"],
+    "mural/**/*.{json,md,css,html}": ["prettier --write"],
+    "mural/app/**/*.{ts,js}": ["prettier --write", "eslint --fix --no-error-on-unmatched-pattern"]
+  }

@@ -1,0 +1,4 @@
+--
+-- ESTRUTURA DO BANCO DE DADOS
+--
+
